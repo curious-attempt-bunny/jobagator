@@ -4,18 +4,18 @@
             [compojure.route :as route]
             [clojure.java.io :as io]
             [ring.adapter.jetty :as jetty]
-            [environ.core :refer [env]]))
+            [environ.core :refer [env]]
+            [clojure.java.jdbc :as sql]))
 
-(defn splash []
-  {:status 200
-   :headers {"Content-Type" "text/plain"}
-   :body (pr-str ["Hello" :from 'Heroku])})
+(def db (env :database-url "postgres://localhost:5432/jobs"))
 
 (defroutes app
-  (GET "/" []
-       (splash))
-  (ANY "*" []
-       (route/not-found (slurp (io/resource "404.html")))))
+  (GET "/jobs" []
+    {
+      :status  200
+      :headers {"Content-Type" "text/plain"}
+      :body    (sql/query db "SELECT * FROM jobs")
+    }))
 
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]
