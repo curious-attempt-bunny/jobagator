@@ -17,8 +17,11 @@
       :body    (sql/query db "SELECT * FROM jobs")
     })
   (POST "/jobs" [title url]
-    (sql/insert! db
-      :jobs {:title title :url url})))
+    (let [[{:keys [:id]} & _] (sql/query db ["SELECT id FROM jobs WHERE url = ?" url])
+          now                 (new java.sql.Timestamp (System/currentTimeMillis))]
+      (if (nil? id)
+        (sql/insert! db :jobs {:title title :url url :updated_at now})
+        (sql/update! db :jobs {:updated_at now} ["id = ?" id])))))
 
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]
