@@ -8,6 +8,6 @@ create table jobs (
     updated_at TIMESTAMP NOT NULL
 );
 lein repl
-(require 'clojure-getting-started.web)
-(def server (clojure-getting-started.web/-main))
+(require 'jobagator)
+(def server (jobagator/-main))
 ```
