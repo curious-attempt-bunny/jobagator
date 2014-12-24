@@ -8,6 +8,6 @@ create table jobs (
     updated_at TIMESTAMP NOT NULL
 );
 lein repl
-(require 'jobagator)
-(def server (jobagator/-main))
+(require 'jobagator.web)
+(def server (jobagator.web/-main))
 ```
