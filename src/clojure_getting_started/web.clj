@@ -10,12 +10,15 @@
 (def db (env :database-url "postgres://localhost:5432/jobs"))
 
 (defroutes app
-  (GET "/jobs" []
-    {
-      :status  200
-      :headers {"Content-Type" "text/plain"}
-      :body    (sql/query db "SELECT * FROM jobs")
-    })
+  (GET "/" []
+    (let [jobs (sql/query db "SELECT * FROM jobs")]
+      {
+        :status 200
+        :headers {"Content-Type" "text/html"}
+        :body   (->> jobs
+                  (map #(str "<li><a href='" (:url %) "'>" (:title %) "</a></li>"))
+                  clojure.string/join)
+      }))
   (POST "/jobs" [title url]
     (let [[{:keys [:id]} & _] (sql/query db ["SELECT id FROM jobs WHERE url = ?" url])
           now                 (new java.sql.Timestamp (System/currentTimeMillis))]
