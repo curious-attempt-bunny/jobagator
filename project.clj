@@ -9,4 +9,4 @@
   :plugins [[environ/environ.lein "0.2.1"]]
   :hooks [environ.leiningen.hooks]
   :uberjar-name "jobagator-standalone.jar"
-  :profiles {:production {:env {:production true}}})
+  :profiles {:dev  {:env {:database-url "postgres://localhost:5432/jobs"}}})

@@ -7,7 +7,7 @@
             [environ.core :refer [env]]
             [clojure.java.jdbc :as sql]))
 
-(def db (env :database-url "postgres://localhost:5432/jobs"))
+(def db (env :database-url))
 
 (defroutes app
   (GET "/" []
