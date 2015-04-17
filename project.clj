@@ -1,4 +1,5 @@
 (defproject jobagator "0.0.1"
+  :main jobagator.web
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [compojure "1.1.8"]
                  [ring/ring-jetty-adapter "1.2.2"]
@@ -8,5 +9,5 @@
   :min-lein-version "2.0.0"
   :plugins [[environ/environ.lein "0.2.1"]]
   :hooks [environ.leiningen.hooks]
-  :uberjar-name "jobagator-standalone.jar"
+  :uberjar-name "app-standalone.jar"
   :profiles {:dev  {:env {:database-url "postgres://localhost:5432/jobs"}}})
