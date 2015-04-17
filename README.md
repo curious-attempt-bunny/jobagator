@@ -1,3 +1,5 @@
+# Database setup
+
 ```
 createdb jobs
 psql -d jobs
@@ -7,7 +9,4 @@ create table jobs (
     url VARCHAR(500) NOT NULL UNIQUE,
     updated_at TIMESTAMP NOT NULL
 );
-lein repl
-(require 'jobagator.web)
-(def server (jobagator.web/-main))
 ```
