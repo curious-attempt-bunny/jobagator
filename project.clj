@@ -10,4 +10,6 @@
   :plugins [[environ/environ.lein "0.2.1"]]
   :hooks [environ.leiningen.hooks]
   :uberjar-name "app-standalone.jar"
-  :profiles {:dev  {:env {:database-url "postgres://localhost:5432/jobs"}}})
+  :profiles {:dev  {:env {:database-url "postgres://localhost:5432/jobs"}
+                    :jvm-opts [ "-Dextensions.dir=./newrelic/extensions"
+                                "-javaagent:./newrelic/newrelic.jar"]}})

@@ -1,0 +1,52 @@
+Apr 18, 2015 10:33:58 -0700 [7366 1] com.newrelic INFO: Writing to New Relic log file: /Users/home/fun/jobagator/newrelic/logs/newrelic_agent.log
+Apr 18, 2015 10:33:58 -0700 [7366 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_05
+Apr 18, 2015 10:33:58 -0700 [7366 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.5-b02
+Apr 18, 2015 10:33:58 -0700 [7366 1] com.newrelic INFO: OS Mac OS X version 10.9.5 arch x86_64
+Apr 18, 2015 10:33:58 -0700 [7366 1] com.newrelic INFO: Agent Host: Homes-MacBook-Pro-2.local IP: 10.1.10.176
+Apr 18, 2015 10:33:58 -0700 [7366 1] com.newrelic INFO: New Relic Agent v3.15.0 is initializing...
+Apr 18, 2015 10:34:01 -0700 [7366 5] com.newrelic.agent.Agent INFO: JVM is shutting down
+Apr 18, 2015 10:34:01 -0700 [7366 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
+Apr 18, 2015 10:35:43 -0700 [7396 1] com.newrelic INFO: Writing to New Relic log file: /Users/home/fun/jobagator/newrelic/logs/newrelic_agent.log
+Apr 18, 2015 10:35:43 -0700 [7396 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_05
+Apr 18, 2015 10:35:43 -0700 [7396 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.5-b02
+Apr 18, 2015 10:35:43 -0700 [7396 1] com.newrelic INFO: OS Mac OS X version 10.9.5 arch x86_64
+Apr 18, 2015 10:35:43 -0700 [7396 1] com.newrelic INFO: Agent Host: Homes-MacBook-Pro-2.local IP: 10.1.10.176
+Apr 18, 2015 10:35:43 -0700 [7396 1] com.newrelic INFO: New Relic Agent v3.15.0 is initializing...
+Apr 18, 2015 10:35:48 -0700 [7396 1] com.newrelic.instrumentation.grails-async-2.3 INFO: Disabled instrumentation "com.newrelic.instrumentation.grails-async-2.3"
+Apr 18, 2015 10:35:50 -0700 [7396 1] com.newrelic.instrumentation.servlet-user INFO: Disabled instrumentation "com.newrelic.instrumentation.servlet-user"
+Apr 18, 2015 10:35:57 -0700 [7396 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Apr 18, 2015 10:35:57 -0700 [7396 1] com.newrelic INFO: Setting audit_mode to false
+Apr 18, 2015 10:35:57 -0700 [7396 1] com.newrelic INFO: Setting protocol to "https"
+Apr 18, 2015 10:35:58 -0700 [7396 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/home/fun/jobagator/newrelic/./newrelic.yml
+Apr 18, 2015 10:35:58 -0700 [7396 1] com.newrelic INFO: New Relic Agent v3.15.0 has started
+Apr 18, 2015 10:35:58 -0700 [7396 1] com.newrelic INFO: Agent class loader: sun.misc.Launcher$AppClassLoader@58644d46
+Apr 18, 2015 10:36:08 -0700 [7396 10] com.newrelic INFO: Display host name is Homes-MacBook-Pro-2.local for application Jobagator
+Apr 18, 2015 10:36:09 -0700 [7396 10] com.newrelic INFO: Collector redirection to collector-107.newrelic.com:443
+Apr 18, 2015 10:36:10 -0700 [7396 10] com.newrelic INFO: Agent run id: 27107458507016365
+Apr 18, 2015 10:36:10 -0700 [7396 10] com.newrelic INFO: Agent 7396@Homes-MacBook-Pro-2.local/Jobagator connected to collector.newrelic.com:443
+Apr 18, 2015 10:36:10 -0700 [7396 10] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/929577/applications/6311445
+Apr 18, 2015 10:36:10 -0700 [7396 10] com.newrelic INFO: Using RUM version 632 for application "Jobagator"
+Apr 18, 2015 10:36:10 -0700 [7396 10] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "Jobagator"
+Apr 18, 2015 10:49:19 -0700 [7396 5] com.newrelic.agent.Agent INFO: JVM is shutting down
+Apr 18, 2015 10:49:19 -0700 [7396 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
+Apr 18, 2015 10:50:07 -0700 [7496 1] com.newrelic INFO: Writing to New Relic log file: /Users/home/fun/jobagator/newrelic/logs/newrelic_agent.log
+Apr 18, 2015 10:50:07 -0700 [7496 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_05
+Apr 18, 2015 10:50:07 -0700 [7496 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.5-b02
+Apr 18, 2015 10:50:07 -0700 [7496 1] com.newrelic INFO: OS Mac OS X version 10.9.5 arch x86_64
+Apr 18, 2015 10:50:07 -0700 [7496 1] com.newrelic INFO: Agent Host: Homes-MacBook-Pro-2.local IP: 10.1.10.176
+Apr 18, 2015 10:50:07 -0700 [7496 1] com.newrelic INFO: New Relic Agent v3.15.0 is initializing...
+Apr 18, 2015 10:50:28 -0700 [7496 1] com.newrelic.instrumentation.grails-async-2.3 INFO: Disabled instrumentation "com.newrelic.instrumentation.grails-async-2.3"
+Apr 18, 2015 10:50:35 -0700 [7496 1] com.newrelic.instrumentation.servlet-user INFO: Disabled instrumentation "com.newrelic.instrumentation.servlet-user"
+Apr 18, 2015 10:51:06 -0700 [7496 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Apr 18, 2015 10:51:06 -0700 [7496 1] com.newrelic INFO: Setting audit_mode to false
+Apr 18, 2015 10:51:06 -0700 [7496 1] com.newrelic INFO: Setting protocol to "https"
+Apr 18, 2015 10:51:10 -0700 [7496 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/home/fun/jobagator/newrelic/./newrelic.yml
+Apr 18, 2015 10:51:10 -0700 [7496 1] com.newrelic INFO: New Relic Agent v3.15.0 has started
+Apr 18, 2015 10:51:10 -0700 [7496 1] com.newrelic INFO: Agent class loader: sun.misc.Launcher$AppClassLoader@58644d46
+Apr 18, 2015 10:51:35 -0700 [7496 10] com.newrelic INFO: Display host name is Homes-MacBook-Pro-2.local for application Jobagator
+Apr 18, 2015 10:51:37 -0700 [7496 10] com.newrelic INFO: Collector redirection to collector-107.newrelic.com:443
+Apr 18, 2015 10:51:37 -0700 [7496 10] com.newrelic INFO: Agent run id: 27107458507048828
+Apr 18, 2015 10:51:37 -0700 [7496 10] com.newrelic INFO: Agent 7496@Homes-MacBook-Pro-2.local/Jobagator connected to collector.newrelic.com:443
+Apr 18, 2015 10:51:37 -0700 [7496 10] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/929577/applications/6311445
+Apr 18, 2015 10:51:37 -0700 [7496 10] com.newrelic INFO: Using RUM version 632 for application "Jobagator"
+Apr 18, 2015 10:51:37 -0700 [7496 10] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "Jobagator"
